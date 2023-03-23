@@ -14,3 +14,9 @@ http://airviro.klab.ee/
 | TEMP  | 9,72          | C       | Temperatuur                 |
 | WD10  | 204,40        | deg     | Tuule suund 10 m kõrgusel  |
 | WS10  | 1,56          | m/s     | Tuule kiirus 10 m kõrgusel |
+
+Process: 
+
+* Using Python script extract data from http://airviro.klab.ee/ (fetch_air.ipynb).
+* Using Openrefine transform columns into correct format(use data_transform_steps.json)
+* Using Openrefine export SQL that can be imported to any SQL based database.
