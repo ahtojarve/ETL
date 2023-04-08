@@ -15,8 +15,12 @@ http://airviro.klab.ee/
 | WD10  | 204,40        | deg     | Tuule suund 10 m kõrgusel  |
 | WS10  | 1,56          | m/s     | Tuule kiirus 10 m kõrgusel |
 
-Process: 
+Process:
 
 * Using Python script extract data from http://airviro.klab.ee/ (fetch_air.ipynb).
 * Using Openrefine transform columns into correct format(use data_transform_steps.json)
 * Using Openrefine export SQL that can be imported to any SQL based database.
+* Create a sqlite3 database
+* Create a table into database using air-2022-database-script.sql
+* Using Python script create daily average table from existing table (create_daily.ipynb)
+*
