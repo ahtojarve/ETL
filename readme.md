@@ -23,4 +23,4 @@ Process:
 * Create a sqlite3 database
 * Create a table into database using air-2022-database-script.sql
 * Using Python script create daily average table from existing table (create_daily.ipynb)
-*
+* Using Python script create monthly average table from existing table (create_monthly.ipynb)
